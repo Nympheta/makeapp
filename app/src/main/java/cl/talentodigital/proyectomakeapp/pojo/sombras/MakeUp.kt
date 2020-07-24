@@ -12,7 +12,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 For support, please feel free to contact me at https://www.linkedin.com/in/syedabsar */
 
 
-data class Json4Kotlin_Base (
+data class MakeUp (
 
 	@SerializedName("id") val id : Int,
 	@SerializedName("brand") val brand : String,
@@ -32,5 +32,5 @@ data class Json4Kotlin_Base (
 	@SerializedName("updated_at") val updated_at : String,
 	@SerializedName("product_api_url") val product_api_url : String,
 	@SerializedName("api_featured_image") val api_featured_image : String,
-	@SerializedName("product_colors") val product_colors : List<Product_colors>
+	@SerializedName("product_colors") val product_colors : List<Makeup_colors>
 )
