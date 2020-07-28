@@ -8,8 +8,17 @@
     <string name="action_settings">Ajustes</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="skincare">SKINCARE</string>
-    <string name="maquillaje">MAQUILLAJE</string>
+    <string name="menu_maquillaje" translatable="false">Maquillaje</string>
+    <string name="menu_skin" translatable="false">SkinCare</string>
+    <string name="menu_acc" translatable="false">Accesorios</string>
+    <string name="menu_tutoriales">Tutoriales</string>
+    <string name="menu_hair">Cabello</string>
+    <string name="menu_blog">Blog</string>
+    <string name="menu_fav">Tus Favoritos</string>
+    <string name="menu_acerca">Acerca de</string>
+
+
+    <string name="titulo_paleta">¡Las Mejores Paletas del 2020!</string>
+    <string name="descripcion_paleta">Encuentra aqui las paletas más vendidas del año y donde poder comprarlas.</string>
+
 </resources>

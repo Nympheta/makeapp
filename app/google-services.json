@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "587245443137",
+    "firebase_url": "https://makeapp-9794.firebaseio.com",
+    "project_id": "makeapp-9794",
+    "storage_bucket": "makeapp-9794.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587245443137:android:1760632916beec32150ec0",
+        "android_client_info": {
+          "package_name": "cl.talentodigital.proyectomakeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587245443137-op65uj1qu37r1bd10uo2uqihac2ajjkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM0KM7OFrBAFpVikze-0RSQxf_Txf8Jxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587245443137-op65uj1qu37r1bd10uo2uqihac2ajjkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

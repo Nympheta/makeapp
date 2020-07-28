@@ -14,7 +14,8 @@ class MakeupRetrofit {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
 
-            return retrofit.create(Api::class.java)
+            val Apis : Api = retrofit.create(Api::class.java)
+            return Apis
         }
     }
 }

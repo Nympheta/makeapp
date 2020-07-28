@@ -9,7 +9,7 @@ import androidx.room.RoomDatabase
 
 
 abstract class MakeupDataBase : RoomDatabase(){
-    abstract fun getSuperHeroDao(): MakeupDAO
+    abstract fun getMakeupDao(): MakeupDAO
     companion object {
         @Volatile
         private var INSTANCE: MakeupDataBase? = null
@@ -20,7 +20,7 @@ abstract class MakeupDataBase : RoomDatabase(){
                 return tempInstance
             }
             synchronized(this){
-                val instance = Room.databaseBuilder(context.applicationContext,MakeupDataBase::class.java,"superhero_database").build()
+                val instance = Room.databaseBuilder(context.applicationContext,MakeupDataBase::class.java,"eyeshadow_database").build()
                 INSTANCE = instance
                 return instance
             }
