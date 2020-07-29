@@ -33,11 +33,6 @@
             android:icon="@drawable/ic_baseline_arrow_right_24"
             android:title="@string/menu_hair" />
 
-        <item
-            android:id="@+id/nav_blog"
-            android:icon="@drawable/ic_baseline_arrow_right_24"
-            android:title="@string/menu_blog" />
-
 
 
         <item

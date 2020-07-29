@@ -22,10 +22,7 @@ class AccesoriosFragment : Fragment() {
         accesoriosViewModel =
             ViewModelProviders.of(this).get(AccesoriosViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_accesorios, container, false)
-        val textView: TextView = root.findViewById(R.id.text_acc)
-        accesoriosViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+
         return root
     }
 

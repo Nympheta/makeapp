@@ -29,7 +29,6 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/cardMaquillaje"
             android:layout_width="0dp"
-            android:clickable="true"
             android:layout_height="0dp"
             android:layout_row="0"
             android:layout_rowWeight="1"
@@ -54,6 +53,7 @@
                     android:id="@+id/maquillaje"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
+                    android:onClick="clickMaq"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/m18516" />
 
@@ -94,6 +94,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
+                    android:onClick="clickSkin"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/m14062" />
 
@@ -134,6 +135,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
+                    android:onClick="clickAcc"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/m2551261" />
 
@@ -174,6 +176,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
+                    android:onClick="clickTuto"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/mtutorial" />
 
@@ -214,6 +217,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
+                    android:onClick="clickHair"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/mhair" />
 
@@ -254,14 +258,15 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
+                    android:onClick="clickFav"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/blog_logo" />
+                    android:src="@drawable/favorite" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_horizontal"
-                    android:text="@string/menu_blog"
+                    android:text="@string/menu_fav"
                     android:textAlignment="center"
                     android:textColor="#a48a90"
                     android:textSize="16sp"

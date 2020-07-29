@@ -23,10 +23,7 @@ class TutorialesFragment : Fragment() {
         tutorialesViewModel =
             ViewModelProviders.of(this).get(TutorialesViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_tutoriales, container, false)
-        val textView: TextView = root.findViewById(R.id.text_tuto)
-        tutorialesViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+
         return root
     }
 }

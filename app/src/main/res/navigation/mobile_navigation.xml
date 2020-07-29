@@ -42,12 +42,6 @@
         tools:layout="@layout/fragment_cabello" />
 
     <fragment
-        android:id="@+id/nav_blog"
-        android:name="cl.talentodigital.proyectomakeapp.ui.blog.BlogFragment"
-        android:label="@string/menu_blog"
-        tools:layout="@layout/fragment_blog" />
-
-    <fragment
         android:id="@+id/nav_fav"
         android:name="cl.talentodigital.proyectomakeapp.ui.favoritos.FavoritosFragment"
         android:label="@string/menu_fav"

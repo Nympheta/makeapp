@@ -22,10 +22,7 @@ class SkinCareFragment : Fragment() {
         skinCareViewModel =
                 ViewModelProviders.of(this).get(SkinCareViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_skincare, container, false)
-        val textView: TextView = root.findViewById(R.id.text_slideshow)
-        skinCareViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+
         return root
     }
 }

@@ -17,7 +17,7 @@ class MaquillajeAdapter (val data: ArrayList<Maquillaje>) : RecyclerView.Adapter
 
     inner class CustomViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val mTitle: TextView = itemView.findViewById(R.id.txt_maq)
-        val mImgPost: ImageView = itemView.findViewById(R.id.imagen_maq)
+        val mImgPost: ImageView = itemView.findViewById(R.id.imageView)
         val mDesc : TextView = itemView.findViewById(R.id.des_maq)
 
 

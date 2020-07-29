@@ -13,12 +13,59 @@
     <string name="menu_acc" translatable="false">Accesorios</string>
     <string name="menu_tutoriales">Tutoriales</string>
     <string name="menu_hair">Cabello</string>
-    <string name="menu_blog">Blog</string>
     <string name="menu_fav">Tus Favoritos</string>
     <string name="menu_acerca">Acerca de</string>
 
 
+    //Maquillaje
     <string name="titulo_paleta">¡Las Mejores Paletas del 2020!</string>
     <string name="descripcion_paleta">Encuentra aqui las paletas más vendidas del año y donde poder comprarlas.</string>
+
+    <string name="titulo_labial">¡Estos labiales te encantarán!</string>
+    <string name="descripcion_labial">Descubre los tonos que la llevan esta temporada.</string>
+
+    <string name="titulo_base">¡Las 5 bases de maquillaje más vendidas!</string>
+    <string name="descripcion_base">¿Buscas una base de maquillaje natural e infalible? Estos son los productos favoritos y mejor valorados..</string>
+
+    <string name="titulo_ten">¡Las 4 tendencias de maquillaje que querrás llevar esta primavera!</string>
+    <string name="descripcion_ten">Pronto llegará la primavera, descubré aqui lo que será tendencia.</string>
+
+    //SkinCare
+
+    <string name="titulo_skin1">¡Los 10 pasos de la rutina coreana!</string>
+    <string name="descripcion_skin1">Logra una piel hermosa con estos sencillos pasos de las mejores rutinas de belleza coreanas.</string>
+
+    <string name="titulo_skin2">¿Por qué es importante desmaquillarse antes de dormir?</string>
+    <string name="descripcion_skin2">¿Sigues una rutina de limpieza facial todas las noches? No hacerlo puede provocar daños visibles en tu piel.</string>
+
+    <string name="titulo_skin3">¡Sigue estos consejos para iniciar una rutina básica de cuidado facial!</string>
+    <string name="descripcion_skin3">Cuida tu cara siguendo estos sencillos pasos.</string>
+
+    //Accesorios
+
+    <string name="titulo_acc1">¿Cómo limpiar las brochas de maquillaje?</string>
+    <string name="descripcion_acc1">Sigue estos consejos básicos para tener tus brochas impecables.</string>
+
+    <string name="titulo_acc2">¿Sabes para que sirve cada brocha?</string>
+    <string name="descripcion_acc2">Guia con consejos y novedades sobre los diferentes tipos de brochas y pinceles de maquillaje </string>
+
+    <string name="titulo_acc3">¡Las esponjas de maquillaje, llegaron para quedarse!</string>
+    <string name="descripcion_acc3">Aprende a sacarles provecho, y a elegir las mejores.</string>
+
+    //Tutoriales
+
+    <string name="titulo_tuto1">¿Quieres unas cejas perfectas?</string>
+    <string name="descripcion_tuto1">Sigue estos sencillos tips para lograrlo. !Toma Nota!</string>
+
+    <string name="titulo_tuto2">¡Maquillaje de dia, Efecto cara lavada!</string>
+    <string name="descripcion_tuto2">Toma nota de estos trucos de maquillaje y consigue un look natural. ¡Solo necesitarás 3 productos! </string>
+
+    <string name="titulo_tuto3">¿Maquillaje de noche o fiesta?</string>
+    <string name="descripcion_tuto3">¡Estos tendencias te encantarán, serás el alma de la fiesta!</string>
+
+
+
+
+
 
 </resources>
